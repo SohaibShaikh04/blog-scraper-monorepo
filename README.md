@@ -43,7 +43,7 @@ The system leverages Google Custom Search API for article discovery and Google G
 
 ## 🌐 Live Demo
 
-**🔗 Frontend Application:** [https://your-frontend-url.vercel.app](https://your-frontend-url.vercel.app)
+**🔗 Frontend Application:** [https://your-frontend-url.vercel.app](https://blog-scraper-monorepo.vercel.app/)
 
 ### Try It Out:
 - ✅ Browse AI-enhanced articles
