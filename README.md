@@ -43,7 +43,7 @@ The system leverages Google Custom Search API for article discovery and Google G
 
 ## 🌐 Live Demo
 
-**🔗 Frontend Application:** [https://your-frontend-url.vercel.app](https://your-frontend-url.vercel.app)
+**🔗 Frontend Application:** [aticle-scraper-app](https://blog-scraper-monorepo.vercel.app/)
 
 ### Try It Out:
 - ✅ Browse AI-enhanced articles
@@ -437,34 +437,6 @@ curl -X POST http://127.0.0.1:8000/api/articles/import/batch \
 
 ---
 
-## 🔑 Environment Variables
-
-### Backend (.env)
-```env
-APP_NAME=Blog Scraper
-APP_KEY=base64:...generated...
-DB_DATABASE=blog_articles
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### Scraper (.env)
-```env
-GOOGLE_API_KEY=AIza...
-GOOGLE_CX=0123456789:xxx...
-GEMINI_API_KEY=AIza...
-LLM_MODEL=gemini-1.5-flash
-BACKEND_URL=http://127.0.0.1:8000/api
-SEARCH_QUERY=AI chatbot healthcare
-MAX_RESULTS=5
-```
-
-### Frontend (.env)
-```env
-REACT_APP_API_URL=http://127.0.0.1:8000/api
-```
-
----
 
 ## 📖 Usage Guide
 
@@ -535,14 +507,6 @@ vercel login
 vercel --prod
 ```
 
-### Backend Deployment (Optional)
-
-For production deployment, consider:
-- **Railway.app** (Free tier available)
-- **Heroku** ($7/month)
-- **DigitalOcean App Platform** ($5/month)
-
----
 
 ## 🐛 Troubleshooting
 
@@ -643,7 +607,7 @@ This project is for educational purposes only.
 **Your Name**
 - GitHub: [@SohaibShaikh04](https://github.com/SohaibShaikh04)
 - Email: sohaibsk2004@gmail.com
-- LinkedIn: [sohaiblinkedIn](https://linkedin.com/in/yourprofile)
+- LinkedIn: [sohaiblinkedIn](https://www.linkedin.com/in/sohaib-shaikh-6aa250256/)
 
 ---
 
@@ -654,7 +618,7 @@ This project is for educational purposes only.
 - **Google** - For Gemini AI and Custom Search API
 - **OpenAI** - For inspiration in AI-powered content enhancement
 
----
+
 
 ---
 
@@ -669,21 +633,6 @@ This project is for educational purposes only.
 - [ ] Multi-language support
 - [ ] Article versioning history
 
----
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Review the component-specific READMEs:
-   - [Backend README](./backend/README.md)
-   - [Scraper README](./scraper/README.md)
-   - [Frontend README](./frontend/README.md)
-3. Open an issue on GitHub
-
----
-
-**⭐ If this project helped you, please give it a star!**
 
 ---
 

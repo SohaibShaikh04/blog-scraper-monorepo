@@ -19,7 +19,8 @@ return [
         'http://localhost:5173',
         'http://127.0.0.1:5173',
         'http://127.0.0.1:8080',
-        'https://blog-scraper-monorepo.vercel.app/'
+        'https://blog-scraper-monorepo.vercel.app/',
+        'http://localhost:8080/'
     ],
 
     'allowed_origins_patterns' => [],
